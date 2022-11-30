@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    background: rgb(127, 48, 207);
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9.6rem;
+}
+
+/* dark mode */
+.icon-wrapper {
+    margin-top: 1rem;
+}
+i {
+    color: #afe25c;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.darkBody {
+    background: rgb(13,1,24);
+}
+.darkMain {
+    background: #3d3d61;
+}
+.pDark {
+    color: white;
+}
+main {
+    max-width: 42.8rem;
+    width: 90%;
+    border-radius: 6px;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* hide */
+
+.hide {
+    display: none;
+}
+
+/* screen1 */
+
+.screen1 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #afe25c;
+    margin-bottom: 1.6rem;
+    text-shadow: 1px 1px black;
+
+}
+ p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: rgba(52, 53, 91, 0.8);
+    margin-bottom: 4.8rem;
+}
+.screen1 form {
+    display: flex;
+    justify-content: center;
+}
+.screen1 input {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: #34355B;
+    background: #DCE2E9;
+    border-radius: 4px 0 0 4px;
+    padding: 1.6rem;
+    width: 8rem;
+    border: none;
+}
+.screen1 button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: blueviolet;
+    padding: 1.6rem;
+    background: #afe25c;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    transition: all .3s;
+    cursor: pointer;
+}
+.screen1 button:hover {
+    background: blueviolet;
+    color: #afe25c;
+}
+
+/* screen2 */
+
+.screen2 h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #afe25c;
+    text-shadow: 1px 1px black;
+    margin-bottom: 3.3rem;
+}
+.screen2 button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: blueviolet;
+    border-radius: 4px;
+    padding: 1.6rem;
+    background: #afe25c;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+.screen2 button:hover {
+    background: blueviolet;
+    color: #afe25c;
+}
